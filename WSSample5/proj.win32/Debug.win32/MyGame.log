@@ -1,0 +1,215 @@
+﻿2014/07/29 15:43:50 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\MyGame.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\wada\Documents\GitHub\WSSample\WSSample5\cocos2d\cocos\2d\..\..\cocos\audio\include /IC:\Users\wada\Documents\GitHub\WSSample\WSSample5\cocos2d\cocos\2d\..\..\external /IC:\Users\wada\Documents\GitHub\WSSample\WSSample5\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk /IC:\Users\wada\Documents\GitHub\WSSample\WSSample5\cocos2d\cocos\2d\..\..\extensions /I..\Classes /I.. /IC:\Users\wada\Documents\GitHub\WSSample\WSSample5\cocos2d\cocos\2d\..\..\cocos /IC:\Users\wada\Documents\GitHub\WSSample\WSSample5\cocos2d\cocos\2d\..\..\cocos\platform\win32 /IC:\Users\wada\Documents\GitHub\WSSample\WSSample5\cocos2d\cocos\2d\..\..\cocos\platform\desktop /IC:\Users\wada\Documents\GitHub\WSSample\WSSample5\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"C:\Users\wada\Documents\GitHub\WSSample\WSSample5\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\Camera3d.cpp ..\Classes\DiceShaderNode.cpp ..\Classes\KleinBottleShaderNode.cpp ..\Classes\Light.cpp ..\Classes\ModelShaderNode.cpp ..\Classes\NewParametricShaderNode.cpp ..\Classes\NewShaderNode.cpp ..\Classes\ParametricMeshShaderNode.cpp ..\Classes\ParametricSphereShaderNode.cpp ..\Classes\ShaderNode.cpp ..\Classes\Shader2dNode.cpp ..\Classes\ShaderScene.cpp ..\Classes\ShaderTextureNode.cpp ..\Classes\SphereShaderNode.cpp ..\Classes\TorusShaderNode.cpp main.cpp
+         AppDelegate.cpp
+         Camera3d.cpp
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\AppDelegate.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\Camera3d.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\AppDelegate.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\Camera3d.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccmeshcommand.h(37): warning C4099: 'cocos2d::Uniform' : タイプ名は最初 'struct' として使われていましたが 'class' として使われています。 (..\Classes\AppDelegate.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglprogram.h(64) : 'cocos2d::Uniform' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccmeshcommand.h(37): warning C4099: 'cocos2d::Uniform' : タイプ名は最初 'struct' として使われていましたが 'class' として使われています。 (..\Classes\Camera3d.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglprogram.h(64) : 'cocos2d::Uniform' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': が古い形式として宣言されました。 (..\Classes\AppDelegate.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglstatecache.h(132) : 'cocos2d::GL::deleteTextureN' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': が古い形式として宣言されました。 (..\Classes\Camera3d.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglstatecache.h(132) : 'cocos2d::GL::deleteTextureN' の宣言を確認してください。
+         DiceShaderNode.cpp
+         KleinBottleShaderNode.cpp
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\DiceShaderNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\KleinBottleShaderNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\DiceShaderNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccmeshcommand.h(37): warning C4099: 'cocos2d::Uniform' : タイプ名は最初 'struct' として使われていましたが 'class' として使われています。 (..\Classes\DiceShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglprogram.h(64) : 'cocos2d::Uniform' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': が古い形式として宣言されました。 (..\Classes\DiceShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglstatecache.h(132) : 'cocos2d::GL::deleteTextureN' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\KleinBottleShaderNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccmeshcommand.h(37): warning C4099: 'cocos2d::Uniform' : タイプ名は最初 'struct' として使われていましたが 'class' として使われています。 (..\Classes\KleinBottleShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglprogram.h(64) : 'cocos2d::Uniform' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': が古い形式として宣言されました。 (..\Classes\KleinBottleShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglstatecache.h(132) : 'cocos2d::GL::deleteTextureN' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\classes\kleinbottleshadernode.cpp(129): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+         Light.cpp
+         ModelShaderNode.cpp
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\Light.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\Light.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccmeshcommand.h(37): warning C4099: 'cocos2d::Uniform' : タイプ名は最初 'struct' として使われていましたが 'class' として使われています。 (..\Classes\Light.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglprogram.h(64) : 'cocos2d::Uniform' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': が古い形式として宣言されました。 (..\Classes\Light.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglstatecache.h(132) : 'cocos2d::GL::deleteTextureN' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\ModelShaderNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\ModelShaderNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccmeshcommand.h(37): warning C4099: 'cocos2d::Uniform' : タイプ名は最初 'struct' として使われていましたが 'class' として使われています。 (..\Classes\ModelShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglprogram.h(64) : 'cocos2d::Uniform' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': が古い形式として宣言されました。 (..\Classes\ModelShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglstatecache.h(132) : 'cocos2d::GL::deleteTextureN' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\classes\modelshadernode.cpp(147): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+         NewParametricShaderNode.cpp
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\NewParametricShaderNode.cpp)
+         NewShaderNode.cpp
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\NewParametricShaderNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccmeshcommand.h(37): warning C4099: 'cocos2d::Uniform' : タイプ名は最初 'struct' として使われていましたが 'class' として使われています。 (..\Classes\NewParametricShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglprogram.h(64) : 'cocos2d::Uniform' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': が古い形式として宣言されました。 (..\Classes\NewParametricShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglstatecache.h(132) : 'cocos2d::GL::deleteTextureN' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\classes\newparametricshadernode.cpp(36): warning C4305: '引数' : 'double' から 'float' へ切り詰めます。
+     1>c:\users\wada\documents\github\wssample\wssample5\classes\newparametricshadernode.cpp(88): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\NewShaderNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\NewShaderNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccmeshcommand.h(37): warning C4099: 'cocos2d::Uniform' : タイプ名は最初 'struct' として使われていましたが 'class' として使われています。 (..\Classes\NewShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglprogram.h(64) : 'cocos2d::Uniform' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': が古い形式として宣言されました。 (..\Classes\NewShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglstatecache.h(132) : 'cocos2d::GL::deleteTextureN' の宣言を確認してください。
+         ParametricMeshShaderNode.cpp
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\ParametricMeshShaderNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\ParametricMeshShaderNode.cpp)
+         ParametricSphereShaderNode.cpp
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccmeshcommand.h(37): warning C4099: 'cocos2d::Uniform' : タイプ名は最初 'struct' として使われていましたが 'class' として使われています。 (..\Classes\ParametricMeshShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglprogram.h(64) : 'cocos2d::Uniform' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': が古い形式として宣言されました。 (..\Classes\ParametricMeshShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglstatecache.h(132) : 'cocos2d::GL::deleteTextureN' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\ParametricSphereShaderNode.cpp)
+         ShaderNode.cpp
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\ParametricSphereShaderNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccmeshcommand.h(37): warning C4099: 'cocos2d::Uniform' : タイプ名は最初 'struct' として使われていましたが 'class' として使われています。 (..\Classes\ParametricSphereShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglprogram.h(64) : 'cocos2d::Uniform' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': が古い形式として宣言されました。 (..\Classes\ParametricSphereShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglstatecache.h(132) : 'cocos2d::GL::deleteTextureN' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\classes\parametricsphereshadernode.cpp(39): warning C4305: '引数' : 'double' から 'float' へ切り詰めます。
+     1>c:\users\wada\documents\github\wssample\wssample5\classes\parametricsphereshadernode.cpp(76): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\ShaderNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\ShaderNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccmeshcommand.h(37): warning C4099: 'cocos2d::Uniform' : タイプ名は最初 'struct' として使われていましたが 'class' として使われています。 (..\Classes\ShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglprogram.h(64) : 'cocos2d::Uniform' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': が古い形式として宣言されました。 (..\Classes\ShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglstatecache.h(132) : 'cocos2d::GL::deleteTextureN' の宣言を確認してください。
+         Shader2dNode.cpp
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\Shader2dNode.cpp)
+         ShaderScene.cpp
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\Shader2dNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccmeshcommand.h(37): warning C4099: 'cocos2d::Uniform' : タイプ名は最初 'struct' として使われていましたが 'class' として使われています。 (..\Classes\Shader2dNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglprogram.h(64) : 'cocos2d::Uniform' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': が古い形式として宣言されました。 (..\Classes\Shader2dNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglstatecache.h(132) : 'cocos2d::GL::deleteTextureN' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\ShaderScene.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\ShaderScene.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccmeshcommand.h(37): warning C4099: 'cocos2d::Uniform' : タイプ名は最初 'struct' として使われていましたが 'class' として使われています。 (..\Classes\ShaderScene.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglprogram.h(64) : 'cocos2d::Uniform' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': が古い形式として宣言されました。 (..\Classes\ShaderScene.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglstatecache.h(132) : 'cocos2d::GL::deleteTextureN' の宣言を確認してください。
+         ShaderTextureNode.cpp
+         SphereShaderNode.cpp
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\ShaderTextureNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\ShaderTextureNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccmeshcommand.h(37): warning C4099: 'cocos2d::Uniform' : タイプ名は最初 'struct' として使われていましたが 'class' として使われています。 (..\Classes\ShaderTextureNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglprogram.h(64) : 'cocos2d::Uniform' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': が古い形式として宣言されました。 (..\Classes\ShaderTextureNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglstatecache.h(132) : 'cocos2d::GL::deleteTextureN' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\SphereShaderNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\SphereShaderNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccmeshcommand.h(37): warning C4099: 'cocos2d::Uniform' : タイプ名は最初 'struct' として使われていましたが 'class' として使われています。 (..\Classes\SphereShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglprogram.h(64) : 'cocos2d::Uniform' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': が古い形式として宣言されました。 (..\Classes\SphereShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglstatecache.h(132) : 'cocos2d::GL::deleteTextureN' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\classes\sphereshadernode.cpp(224): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+         TorusShaderNode.cpp
+         main.cpp
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\TorusShaderNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (main.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\TorusShaderNode.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccmeshcommand.h(37): warning C4099: 'cocos2d::Uniform' : タイプ名は最初 'struct' として使われていましたが 'class' として使われています。 (..\Classes\TorusShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglprogram.h(64) : 'cocos2d::Uniform' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': が古い形式として宣言されました。 (..\Classes\TorusShaderNode.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglstatecache.h(132) : 'cocos2d::GL::deleteTextureN' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\classes\torusshadernode.cpp(36): warning C4305: '引数' : 'double' から 'float' へ切り詰めます。
+     1>c:\users\wada\documents\github\wssample\wssample5\classes\torusshadernode.cpp(88): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (main.cpp)
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccmeshcommand.h(37): warning C4099: 'cocos2d::Uniform' : タイプ名は最初 'struct' として使われていましたが 'class' として使われています。 (main.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglprogram.h(64) : 'cocos2d::Uniform' の宣言を確認してください。
+     1>c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': が古い形式として宣言されました。 (main.cpp)
+                 c:\users\wada\documents\github\wssample\wssample5\cocos2d\cocos\renderer\ccglstatecache.h(132) : 'cocos2d::GL::deleteTextureN' の宣言を確認してください。
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug.win32\game.res" game.rc 
+       PreLinkEvent:
+         if not exist "C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\" mkdir "C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Users\wada\Documents\GitHub\WSSample\WSSample5\cocos2d\cocos\2d\..\..\external\websockets\prebuilt\win32\*.*" "C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\"
+         :VCEnd
+         2 個のファイルをコピーしました
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\MyGame.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\ /LIBPATH:C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\ opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype250.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\MyGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\MyGame.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\Camera3d.obj
+         Debug.win32\DiceShaderNode.obj
+         Debug.win32\KleinBottleShaderNode.obj
+         Debug.win32\Light.obj
+         Debug.win32\ModelShaderNode.obj
+         Debug.win32\NewParametricShaderNode.obj
+         Debug.win32\NewShaderNode.obj
+         Debug.win32\ParametricMeshShaderNode.obj
+         Debug.win32\ParametricSphereShaderNode.obj
+         Debug.win32\ShaderNode.obj
+         Debug.win32\Shader2dNode.obj
+         Debug.win32\ShaderScene.obj
+         Debug.win32\ShaderTextureNode.obj
+         Debug.win32\SphereShaderNode.obj
+         Debug.win32\TorusShaderNode.obj
+         Debug.win32\main.obj
+         C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\libcocos2d.lib
+         C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\libAudio.lib
+         C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\libchipmunk.lib
+     1>AppDelegate.obj : warning LNK4075: /EDITANDCONTINUE は /SAFESEH の指定によって無視されます。
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'libcmt.lib' は他のライブラリの使用と競合しています。/NODEFAULTLIB:library を使用してください。
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'libcmtd.lib' は他のライブラリの使用と競合しています。/NODEFAULTLIB:library を使用してください。
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' は他のライブラリの使用と競合しています。/NODEFAULTLIB:library を使用してください。
+     1>libjpeg.lib(jcapimin.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jcapimin.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jcapistd.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jcapistd.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jcarith.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jcarith.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jcparam.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jcparam.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jdatadst.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jdatadst.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jcinit.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jcinit.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jcmaster.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jcmaster.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jcmarker.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jcmarker.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jcmainct.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jcmainct.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jcprepct.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jcprepct.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jccoefct.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jccoefct.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jccolor.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jccolor.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jcsample.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jcsample.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jchuff.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jchuff.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jcdctmgr.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jcdctmgr.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jfdctfst.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jfdctfst.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jfdctflt.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jfdctflt.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jfdctint.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jfdctint.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jdapimin.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jdapimin.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jdapistd.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jdapistd.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jdarith.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jdarith.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jdatasrc.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jdatasrc.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jdmaster.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jdmaster.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jdinput.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jdinput.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jdmarker.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jdmarker.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jdhuff.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jdhuff.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jdmainct.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jdmainct.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jdcoefct.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jdcoefct.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jdpostct.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jdpostct.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jddctmgr.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jddctmgr.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jidctfst.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jidctfst.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jidctflt.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jidctflt.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jidctint.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jidctint.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jdsample.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jdsample.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jdcolor.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jdcolor.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jquant1.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jquant1.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jquant2.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jquant2.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jdmerge.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jdmerge.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jaricom.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jaricom.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jcomapi.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jcomapi.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jutils.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jutils.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jerror.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jerror.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jmemmgr.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jmemmgr.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>libjpeg.lib(jmemnobs.obj) : warning LNK4099: PDB 'vc110.pdb' が 'libjpeg.lib(jmemnobs.obj)' で、または 'C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+         MyGame.vcxproj -> C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\Debug.win32\MyGame.exe
+     1>プロジェクト "C:\Users\wada\Documents\GitHub\WSSample\WSSample5\proj.win32\MyGame.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:51.69

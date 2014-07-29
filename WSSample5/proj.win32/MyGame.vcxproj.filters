@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{182dfd80-7f15-45e0-8b38-6a1381ff650f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ShaderNode.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ShaderScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ShaderTextureNode.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NewShaderNode.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Camera3d.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DiceShaderNode.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ModelShaderNode.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SphereShaderNode.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ParametricMeshShaderNode.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KleinBottleShaderNode.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Light.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Shader2dNode.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NewParametricShaderNode.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ParametricSphereShaderNode.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TorusShaderNode.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShaderNode.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShaderScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShaderTextureNode.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NewShaderNode.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DiceShaderNode.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Camera3d.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ModelShaderNode.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SphereShaderNode.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VertexPositionNormalColorTexture.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VertexPositionNormalTextureTangent.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ParametricMeshShaderNode.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KleinBottleShaderNode.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Light.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Shader2dNode.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NewParametricShaderNode.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ParametricSphereShaderNode.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TorusShaderNode.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\Shaders\example_bloom.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_Blur.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_celShading.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_ColorBars.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_ColorBars.vsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_edgeDetection.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_Flower.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_Heart.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_HorizontalColor.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_Julia.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_lensFlare.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_Mandelbrot.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_Monjori.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_MultiTexture.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_MultiTexture.vsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_normal.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_outline.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_Plasma.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_sepia.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\example_Twist.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\shadertoy_FireBall.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\shadertoy_Glow.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\shadertoy_LensFlare.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\simple.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\simple.vsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\lambert.vsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\lambert.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\blinn-phong.vsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\blinn-phong.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\perpixel.vsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\perpixel.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\normalmap.vsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\normalmap.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\vertexcolor.vsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\vertexcolor.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\toon.vsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\toon.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\alpha.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\alpha.vsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\vertexsin.vsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\vertexsin.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\mosaic.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\refract.vsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\refract.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\greyscale.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\fade.vsh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\noisy.fsh">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
